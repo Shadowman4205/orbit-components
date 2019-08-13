@@ -1,0 +1,16 @@
+// @flow
+import * as React from "react";
+
+export type Globals = {|
+  +dataTest?: string,
+|};
+
+export type RefType = () => { current: ?HTMLElement };
+
+export type Ref = {|
+  +ref?: RefType,
+|};
+
+export type Translation = React$Element<React$ComponentType<any>> | string;
+
+export type Component = React.ComponentType<{ className: string }>;
