@@ -39,7 +39,7 @@ See [Yarn Link](https://yarnpkg.com/lang/en/docs/cli/link/) documentation for mo
 We encourage adding tests to all components in Orbit. Jest is the testing framework across all types of tests in Orbit.
 
 
-> Before writing the test for a new component, first check [component testing conventions](./testing-conventions.md).
+> Before writing the test for a new component, first check [component testing conventions](testing-conventions.md).
 
 
 Types of tests required to pass on every component:
@@ -60,16 +60,16 @@ We are still working on this, we will add documentation as soon as possible.
 
 
 ## Adding a new icon
-It's easy to update or add a new icon because SVGs are automatically converted to React components. See [this documentation](./icons.md) for more information.
+It's easy to update or add a new icon because SVGs are automatically converted to React components. See [this documentation](icons.md) for more information.
 
 ## Props naming convention
-We want to ensure that all props are consistent across all components. [This convention](./props-convention.md) can help choose the right prop names in for your new components.
+We want to ensure that all props are consistent across all components. [This convention](props-convention.md) can help choose the right prop names in for your new components.
 
 ## Component design
-Check [this section](./component-design.md) for a complete description of the structure of the files which are necessary for a Component check.
+Check [this section](component-design.md) for a complete description of the structure of the files which are necessary for a Component check.
 
 ## Commits
-We are using [this commits convention](./commits.md) to ensure that all commits are pushed in some logic from all devs.
+We are using [this commits convention](commits.md) to ensure that all commits are pushed in some logic from all devs.
 
 ## Versioning
 We release orbit-components under Semantic Versioning 2.0. [See here](https://semver.org/).  
