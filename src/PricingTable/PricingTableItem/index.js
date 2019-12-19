@@ -64,6 +64,7 @@ const StyledBadgeWrapper = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
+  z-index: 1;
 `;
 
 const StyledBadgeWrapperContent = styled.div`
@@ -81,7 +82,6 @@ const StyledBadgeWrapperContent = styled.div`
   right: 0;
   ${StyledBadge} {
     align-self: center;
-    max-width: 100%;
   }
 `;
 

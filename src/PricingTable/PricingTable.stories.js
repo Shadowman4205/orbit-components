@@ -126,7 +126,7 @@ storiesOf("PricingTable", module)
             dataTest="PricingTableItem"
             name="Plus Services"
             priceBadge={<Badge type="info">+ 10</Badge>}
-            badge="Popular"
+            badge="Recommended"
             action={
               <Button
                 onClick={ev => {
@@ -199,7 +199,7 @@ storiesOf("PricingTable", module)
                 <PricingTableItem
                   name="Plus Services"
                   priceBadge={<Badge type="info">+ 10</Badge>}
-                  badge="Popular"
+                  badge="The best choice"
                   action={
                     <Button
                       onClick={ev => {
